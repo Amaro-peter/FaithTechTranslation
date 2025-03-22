@@ -1,16 +1,16 @@
 faithtech:
-  label: FaithTech
+  label: Fé & Tecnologia
   permalink: /faithtech
-  description: FaithTech
+  description: Fé & Tecnologia
 community:
-  label: Community
+  label: Comunidade
   permalink: /community
-  description: FaithTech Community
+  description: Comunidade Fé & Tecnologia
 create:
   label: Create
   permalink: /create
-  description: FaithTech Create
+  description: Create Fé & Tecnologia
 playbook:
-  label: Playbook
+  label: Manual
   permalink: /playbook
-  description: FaithTech Playbook
+  description: Manual da Fé & Tecnologia
