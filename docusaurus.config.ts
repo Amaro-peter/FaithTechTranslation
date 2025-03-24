@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "pt-br",
+    locales: ["en", "pt-br"],
   },
 
   presets: [
@@ -75,15 +75,15 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/faithtech-social-card.jpg",
     navbar: {
-      title: "FaithTech Workbook",
+      title: "Livro Prático Fé & Tecnologia",
       logo: {
         alt: "FaithTech Logo",
         src: "img/logo.svg",
       },
       items: [
-        { to: "/", label: "Docs", position: "left" },
-        { to: "/support", label: "Support", position: "left" },
-        { to: "/blog", label: "Stories", position: "left" },
+        { to: "/", label: "Documentos", position: "left" },
+        { to: "/support", label: "Suporte", position: "left" },
+        { to: "/blog", label: "Histórias", position: "left" },
         {
           href: "https://github.com/FaithTechCreate/workbook",
           label: "GitHub",
@@ -95,16 +95,16 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Documentos",
           items: [
             {
-              label: "Overview",
+              label: "Visão Geral",
               to: "/",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Comunidade",
           items: [
             {
               label: "LinkedIn",
@@ -121,7 +121,7 @@ const config: Config = {
           ],
         },
         {
-          title: "More",
+          title: "Mais",
           items: [
             {
               label: "Blog",
@@ -134,7 +134,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} FaithTech, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} FaithTech, Inc. Feito com Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
