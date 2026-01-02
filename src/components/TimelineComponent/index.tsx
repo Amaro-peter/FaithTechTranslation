@@ -6,7 +6,7 @@ import { timelineItems, TimelineItem } from './timelineData';
 
 const TimelineComponent: React.FC = () => {
   return (
-    <BrowserOnly fallback={<div>Loading...</div>}>
+    <BrowserOnly fallback={<div>Carregando...</div>}>
       {() => {
         return (
           <div className={styles.container}>
