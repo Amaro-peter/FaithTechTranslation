@@ -17,7 +17,7 @@ export const timelineItems: TimelineItem[] = [
       "• Preparação para o Create",
       "Detalhamento da Preparação do Create:",
       "- Destacar um Projeto Bem-Sucedido",
-      "- Destacar o Playbook (Manual da Fé & Tecnologia)",
+      "- Destacar o Playbook da FaithTech",
       "- Apresentação de Projetos selecionados do evento anterior",
       "- Destaque do Framework Redentivo (preparando o Roadmap do Create)",
     ],

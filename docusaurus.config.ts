@@ -75,7 +75,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/faithtech-social-card.jpg",
     navbar: {
-      title: "Livro Prático Fé & Tecnologia",
+      title: "Workbook da FaithTech",
       logo: {
         alt: "FaithTech Logo",
         src: "img/logo.svg",
